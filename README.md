@@ -8,8 +8,7 @@ Jupyter Notebook
 Libraries: numpy, pandas, matplotlib, sklearn, tensorflow, keras
 
 
-###1. K-Nearest Neighbors (KNN) Application
-Notebook: ML_Assignment_1_final.ipynb
+1. K-Nearest Neighbors (KNN) Application
 
 This notebook demonstrates an application of the KNN algorithm on a dataset. The KNN algorithm is a non-parametric, instance-based learning method often used for classification tasks. In this notebook, you will find:
 
@@ -18,8 +17,7 @@ Model Training: Implementation of KNN with different values of k.
 Model Evaluation: Assessment of the model performance using accuracy, precision, recall, and F1-score.
 Usage: Open the notebook and run the cells sequentially to understand the data preprocessing, model training, and evaluation process.
 
-###2. LeNet-5 Architecture Implementation
-Notebook: Implementation_of_LeNet-5_Architecture.ipynb
+2. LeNet-5 Architecture Implementation
 
 This notebook implements the LeNet-5 architecture, one of the earliest and most well-known convolutional neural networks (CNNs) designed for image recognition tasks. The notebook covers:
 
