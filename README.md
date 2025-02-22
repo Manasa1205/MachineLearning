@@ -1,28 +1,36 @@
-This repository contains two implementations for different machine learning algorithms. The first is an application of the K-Nearest Neighbors (KNN) algorithm, 
-and the second is an implementation of the LeNet-5 convolutional neural network architecture. Each notebook includes step-by-step instructions, explanations, and
-code to demonstrate the working principles of these methods.
+This repository contains implementations of various machine learning algorithms, including K-Nearest Neighbors (KNN), LeNet-5 Convolutional Neural Network, and NLP Sentimental Analysis of Large Movie Review Dataset. Each project includes step-by-step instructions, explanations, and code to demonstrate key concepts in machine learning and deep learning.
 
-Requirements
+## Requirements:
 Python 3.x
 Jupyter Notebook
-Libraries: numpy, pandas, matplotlib, sklearn, tensorflow, keras
+Libraries: numpy, pandas, matplotlib, sklearn, tensorflow, keras, nltk, re
 
+# K-Nearest Neighbors (KNN) Application:
+This notebook demonstrates an application of the KNN algorithm, a non-parametric, instance-based learning method commonly used for classification tasks.
 
-1. K-Nearest Neighbors (KNN) Application
-
-This notebook demonstrates an application of the KNN algorithm on a dataset. The KNN algorithm is a non-parametric, instance-based learning method often used for classification tasks. In this notebook, you will find:
-
+Features
 Data Preprocessing: Cleaning and preparing the dataset for training and evaluation.
 Model Training: Implementation of KNN with different values of k.
-Model Evaluation: Assessment of the model performance using accuracy, precision, recall, and F1-score.
-Usage: Open the notebook and run the cells sequentially to understand the data preprocessing, model training, and evaluation process.
+Model Evaluation: Assessment using accuracy, precision, recall, and F1-score.
+Usage: Open the notebook and run the cells sequentially to explore data preprocessing, model training, and evaluation.
 
-2. LeNet-5 Architecture Implementation
+# LeNet-5 Architecture Implementation:
+This notebook implements the LeNet-5 Convolutional Neural Network (CNN), one of the earliest and most well-known architectures for image recognition tasks.
 
-This notebook implements the LeNet-5 architecture, one of the earliest and most well-known convolutional neural networks (CNNs) designed for image recognition tasks. The notebook covers:
-
-Architecture Overview: Explanation of the LeNet-5 layers and structure.
-Model Building: Implementation of the LeNet-5 architecture using TensorFlow/Keras.
-Model Training: Training the model on a sample dataset (such as MNIST).
-Evaluation: Testing the model and visualizing the results.
+Features
+Architecture Overview: Explanation of LeNet-5 layers and structure.
+Model Building: Implementation using TensorFlow/Keras.
+Model Training: Training on a sample dataset (e.g., MNIST).
+Evaluation: Testing the model and visualizing results.
 Usage: Open the notebook and execute each cell to walk through the architecture, training process, and results evaluation.
+
+# NLP Sentimental Analysis of Large Movie Review Dataset:
+This project applies Natural Language Processing (NLP) techniques to analyze sentiment in a large movie review dataset. The dataset contains positive and negative reviews, and the goal is to classify sentiment using machine learning models.
+
+Features
+Data Preprocessing: Tokenization, stopword removal, stemming, and text vectorization using TF-IDF.
+Model Training: Implementation of machine learning models such as Logistic Regression, Naive Bayes, and LSTMs for sentiment classification.
+Model Evaluation: Performance assessment using accuracy, precision, recall, and F1-score.
+Visualization: Graphical representation of word distributions and model performance metrics.
+Usage: Open the notebook and run the cells sequentially to explore text preprocessing, model training, and evaluation.
+
